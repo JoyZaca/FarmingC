@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Turismo en Canadá</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url('fondo.jpg');
+      background-size: cover;
+      background-position: center;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background-color: rgba(0, 51, 102, 0.9);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      border-bottom: 5px solid #ffd700;
+    }
+    h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+    nav {
+      background-color: rgba(102, 153, 204, 0.9);
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 20px;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #ffd700;
+    }
+    section {
+      padding: 40px 20px;
+      background-color: rgba(255, 255, 255, 0.8);
+      margin: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+    .card {
+      width: 300px;
+      margin: 20px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .card-content {
+      padding: 20px;
+    }
+    footer {
+      background-color: rgba(0, 51, 102, 0.9);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .highlight {
+      background-color: #ffd700;
+      color: #333;
+      padding: 5px 10px;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .info-text {
+      text-align: justify;
+      margin-bottom: 20px;
+    }
+    .info-text p {
+      margin-bottom: 15px;
+    }
+    .link-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .link-container a {
+      background-color: rgba(102, 153, 204, 0.9);
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      margin: 0 10px;
+      transition: background-color 0.3s ease;
+    }
+    .link-container a:hover {
+      background-color: #003366;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bienvenidos a Canadá</h1>
+    <p>¡Descubre la belleza y diversidad de Canadá!</p>
+  </header>
+  <nav>
+    <a href="#lugares">Lugares Destacados</a>
+    <a href="#gastronomia">Gastronomía</a>
+    <a href="#detalles">Detalles Relevantes</a>
+    <a href="https://www.canada.ca/en.html" target="_blank">Sitio Oficial de Canadá</a>
+  </nav>
+  <section id="lugares">
+    <h2>Lugares Destacados</h2>
+    <div class="container">
+      <div class="card">
+        <img src="to" width="800" height="400" ALIGN=MIDDLE>
+        <div class="card-content">
+          <h3>Toronto</h3>
+          <p>¡Descubre la vibrante vida urbana de Toronto! Desde la icónica CN Tower hasta el encantador barrio de Kensington Market, hay mucho por explorar.</p>
+          <a href="https://www.seetorontonow.com/" target="_blank">Más información sobre Toronto</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="banff.jpg" alt="Parque Nacional Banff">
+        <div class="card-content">
+          <h3>Parque Nacional Banff</h3>
+          <p>¡Embárcate en una aventura al aire libre en el majestuoso Parque Nacional Banff! Desde senderismo hasta esquí, este parque tiene algo para todos los amantes de la naturaleza.</p>
+          <a href="https://www.pc.gc.ca/en/pn-np/ab/banff" target="_blank">Más información sobre el Parque Nacional Banff</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="vancouver.jpg" alt="Vancouver">
+        <div class="card-content">
+          <h3>Vancouver</h3>
+          <p>¡Explora la belleza natural de Vancouver! Con su impresionante paisaje montañoso y su bullicioso puerto, esta ciudad costera te dejará sin aliento.</p>
+          <a href="https://www.tourismvancouver.com/" target="_blank">Más información sobre Vancouver</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="niagara.jpg" alt="Cataratas del Niágara">
+        <div class="card-content">
+          <h3>Cataratas del Niágara</h3>
+          <p>¡Maravíllate con el espectáculo natural de las Cataratas del Niágara! Ya sea desde un paseo en barco Maid of the Mist o desde un mirador, esta maravilla te dejará sin palabras.</p>
+          <a href="https://www.niagarafallstourism.com/" target="_blank">Más información sobre las Cataratas del Niágara</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="gastronomia">
+    <h2>Gastronomía</h2>
+    <div class="container">
+      <div class="info-text">
+        <p>La gastronomía canadiense es una deliciosa fusión de sabores de todo el mundo. Desde los sabores reconfortantes de la poutine hasta los dulces jarabes de arce, Canadá tiene algo para satisfacer todos los paladares.</p>
+        <p>Algunos platos y bebidas icónicos incluyen:</p>
+        <ul>
+          <li><span class="highlight">Poutine:</span> Patatas fritas cubiertas con queso y salsa de carne.</li>
+          <li><span class="highlight">Sirop de Maple:</span> Un jarabe dulce y delicioso que se vierte sobre panqueques, waffles y más.</li>
+          <li><span class="highlight">Salmon Ahumado:</span> Fresco y sabroso, el salmón ahumado es una delicia culinaria en Canadá.</li>
+          <li><span class="highlight">Cerveza de Hielo:</span> Una cerveza única elaborada con hielo y fermentada en condiciones de frío extremo.</li>
+        </ul>
+      </div>
+      <img src="gastronomia.jpg" alt="Gastronomía Canadiense" style="width: 100%;">
+    </div>
+  </section>
+  <section id="detalles">
+    <h2>Detalles Relevantes</h2>
+    <div class="container">
+      <div class="info-text">
+        <p>Canadá es un país diverso y acogedor con una rica historia y una belleza natural impresionante. Desde las vastas praderas de las praderas hasta las escarpadas montañas de la costa oeste, Canadá ofrece una variedad de experiencias para los visitantes.</p>
+        <p>Algunos datos interesantes sobre Canadá:</p>
+        <ul>
+          <li><span class="highlight">Biodiversidad:</span> Canadá alberga una increíble variedad de flora y fauna, incluyendo osos, alces, ballenas y más.</li>
+          <li><span class="highlight">Cultura Indígena:</span> Las culturas indígenas desempeñan un papel importante en la identidad de Canadá, con una rica historia y tradiciones que se celebran en todo el país.</li>
+          <li><span class="highlight">Calidad de Vida:</span> Canadá se clasifica constantemente como uno de los mejores lugares del mundo para vivir, gracias a su sistema de salud de alta calidad, educación y diversidad cultural.</li>
+        </ul>
+      </div>
+      <img src="detalles.jpg" alt="Detalles de Canadá" style="width: 100%;">
+    </div>
+  </section>
+  <footer>
+    <div class="link-container">
+      <a href="https://es.wikipedia.org/wiki/Turismo_en_Canad%C3%A1" target="_blank">Más sobre turismo en Canadá en Wikipedia</a>
+      <a href="https://www.tripadvisor.es/Tourism-g153339-Canada-Vacations.html" target="_blank">Opiniones de viajeros en TripAdvisor</a>
+      <a href="https://www.lonelyplanet.com/canada" target="_blank">Guía de viaje de Lonely Planet para Canadá</a>
+    </div>
+    <p>&copy; 2024 Turismo en Canadá</p>
+  </footer>
+</body>
+</html>
