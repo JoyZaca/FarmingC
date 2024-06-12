@@ -1,3 +1,4 @@
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
 el archivo "canada tour" es un ejemplo 
 de la implementacion de las diferentes 
 funciones que tenemos al hacer un codigo 
